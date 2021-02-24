@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Feb 2021 14:36:20 GMT</lastBuildDate><item><title><![CDATA[初めに]]></title><description><![CDATA[自己紹介 名前：gagagaL 生まれ:1989年10月 SEになって5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめていきます。 Qiita…]]></description><link>https://gagagal.github.io/first/</link><guid isPermaLink="false">https://gagagal.github.io/first/</guid><pubDate>Wed, 24 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h1&gt;自己紹介&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Feb 2021 14:38:30 GMT</lastBuildDate><item><title><![CDATA[初めに]]></title><description><![CDATA[自己紹介 名前：gagagaL 生まれ:1989年10月 SEになって5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめていきます。 Qiita…]]></description><link>https://gagagal.github.io/first/</link><guid isPermaLink="false">https://gagagal.github.io/first/</guid><pubDate>Wed, 24 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;自己紹介&lt;/h2&gt;
 &lt;p&gt;名前：&lt;strong&gt;gagagaL&lt;/strong&gt;&lt;br&gt;
 生まれ:&lt;strong&gt;1989年10月&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;SEになって5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめていきます。&lt;br&gt;
 &lt;a href=&quot;https://qiita.com/DenverIA&quot;&gt;Qiita&lt;/a&gt; ともたまに連携させていく予定。  &lt;/p&gt;
-&lt;h1&gt;今年やりたいこと・勉強したいもの・読む本 (随時追加)&lt;/h1&gt;
+&lt;h2&gt;今年やりたいこと・勉強したいもの・読む本 (随時追加)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; このブログの整形、デザインの調整&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Django + DeepLearningでアプリ作成&lt;/li&gt;
