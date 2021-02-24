@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Feb 2021 14:38:30 GMT</lastBuildDate><item><title><![CDATA[初めに]]></title><description><![CDATA[自己紹介 名前：gagagaL 生まれ:1989年10月 SEになって5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめていきます。 Qiita…]]></description><link>https://gagagal.github.io/first/</link><guid isPermaLink="false">https://gagagal.github.io/first/</guid><pubDate>Wed, 24 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;自己紹介&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Feb 2021 15:15:29 GMT</lastBuildDate><item><title><![CDATA[Gatsby + Github Pagesで無料静的ブログ作り 1]]></title><description><![CDATA[はじめに 作業報告などを他の人の目を考えずにもっと気軽にしたいなと思い、Qiitaとは違う技術ブログを1から作りたいと思って色々調べました。   Reactも勉強したいものの一つだったので、Reactベースで静的ブログを作るGatsbyを採用して、Github Pages…]]></description><link>https://gagagal.github.io/2021-02-24/</link><guid isPermaLink="false">https://gagagal.github.io/2021-02-24/</guid><pubDate>Wed, 24 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;作業報告などを他の人の目を考えずにもっと気軽にしたいなと思い、Qiitaとは違う技術ブログを1から作りたいと思って色々調べました。  &lt;/p&gt;
+&lt;p&gt;Reactも勉強したいものの一つだったので、Reactベースで静的ブログを作るGatsbyを採用して、Github Pagesにて無料で公開することを目指しました。  &lt;/p&gt;
+&lt;p&gt;とりあえず一旦はデザインなどを凝らずに、アップすることを第一目標に。&lt;/p&gt;
+&lt;h2&gt;いざ作る&lt;/h2&gt;
+&lt;p&gt;そもそもGatsby自体がGithub Pagesで公開されるパターンも想定しているので、割りとスムーズに開発できました。  &lt;/p&gt;
+&lt;p&gt;まず、&lt;strong&gt;(ユーザー名).github.io&lt;/strong&gt; という名前のリポジトリをGithubで作成し、クローンします。  &lt;/p&gt;
+&lt;p&gt;そのリポジトリ内で、  &lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;npm install -g gatsby-cli
+gatsby new blog https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;かなりベーシックながらブログチックで拡張しやすい構成を最初から提示してくれるgatsby-starter-blogを採用します。  &lt;/p&gt;
+&lt;p&gt;“blog”という名前のディレクトリが作成されますが、この名前は別に何でも大丈夫みたいです。  &lt;/p&gt;
+&lt;p&gt;そして、&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;cd blog
+npm install --save gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;さらに、package.jsonのscriptに&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;&amp;quot;deploy&amp;quot;: &amp;quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;を追記します。  &lt;/p&gt;
+&lt;p&gt;すると&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;でデプロイされる。 &lt;/p&gt;
+&lt;p&gt;GithubのリポジトリのSettingからGithub PagesのURLに飛べば、反映されていることがわかります。  &lt;/p&gt;
+&lt;h3&gt;今後やりたいこと&lt;/h3&gt;
+&lt;p&gt;-[ ] タグ機能追加
+-[ ] デザイン調整
+-[ ] ページネーション(可能なら)&lt;/p&gt;</content:encoded></item><item><title><![CDATA[初めに]]></title><description><![CDATA[自己紹介 名前：gagagaL 生まれ:1989年10月 SEになって5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめていきます。 Qiita…]]></description><link>https://gagagal.github.io/first/</link><guid isPermaLink="false">https://gagagal.github.io/first/</guid><pubDate>Tue, 23 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;自己紹介&lt;/h2&gt;
 &lt;p&gt;名前：&lt;strong&gt;gagagaL&lt;/strong&gt;&lt;br&gt;
 生まれ:&lt;strong&gt;1989年10月&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;SEになって5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめていきます。&lt;br&gt;
