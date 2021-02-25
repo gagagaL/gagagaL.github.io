@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Feb 2021 15:38:57 GMT</lastBuildDate><item><title><![CDATA[Gatsby + Github Pagesで無料静的ブログ作り 1]]></title><description><![CDATA[はじめに 作業報告などを他の人の目を考えずにもっと気軽にしたいなと思い、Qiitaとは違う技術ブログを1から作りたいと思って色々調べました。   Reactも勉強したいものの一つだったので、Reactベースで静的ブログを作るGatsbyを採用して、Github Pages…]]></description><link>https://gagagal.github.io/2021-02-24/</link><guid isPermaLink="false">https://gagagal.github.io/2021-02-24/</guid><pubDate>Wed, 24 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Feb 2021 08:00:36 GMT</lastBuildDate><item><title><![CDATA[Gatsby + Github Pagesで無料静的ブログ作り 1]]></title><description><![CDATA[はじめに 作業報告などを他の人の目を考えずにもっと気軽にしたいなと思い、Qiitaとは違う技術ブログを1から作りたいと思って色々調べました。   Reactも勉強したいものの一つだったので、Reactベースで静的ブログを作るGatsbyを採用して、Github Pages…]]></description><link>https://gagagal.github.io/2021-02-24/</link><guid isPermaLink="false">https://gagagal.github.io/2021-02-24/</guid><pubDate>Wed, 24 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;作業報告などを他の人の目を考えずにもっと気軽にしたいなと思い、Qiitaとは違う技術ブログを1から作りたいと思って色々調べました。  &lt;/p&gt;
 &lt;p&gt;Reactも勉強したいものの一つだったので、Reactベースで静的ブログを作るGatsbyを採用して、Github Pagesにて無料で公開することを目指しました。  &lt;/p&gt;
 &lt;p&gt;とりあえず一旦はデザインなどを凝らずに、アップすることを第一目標に。&lt;/p&gt;
@@ -31,6 +31,7 @@ npm install --save gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 生まれ:&lt;strong&gt;1989年10月&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;SEになって5年目。会社の便利屋のようになっていて、色々な技術に触れてはいるけど自分の中であまり整理できている感触がないので、少しずつでもこちらにまとめていきます。&lt;br&gt;
 &lt;a href=&quot;https://qiita.com/DenverIA&quot;&gt;Qiita&lt;/a&gt; ともたまに連携させていく予定。  &lt;/p&gt;
+&lt;p&gt;ちなみに、ブログのタイトルは、このブログが偉大なるGatsbyで動いていることに由来します。元ネタがわかった方は友達になりましょう。&lt;/p&gt;
 &lt;h2&gt;今年やりたいこと・勉強したいもの・読む本 (随時追加)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; このブログの整形、デザインの調整&lt;/li&gt;
