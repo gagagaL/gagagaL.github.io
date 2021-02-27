@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Feb 2021 12:00:25 GMT</lastBuildDate><item><title><![CDATA[0円で作るGatsby + Github Pagesの静的ブログ 2]]></title><description><![CDATA[今のままだと該当記事に辿り着くのがいずれ大変になってきそうなので、タグ検索機能を追加します。 ・各記事Markdownファイルにタグ項目追加 ・各タグの一覧ページを作る
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Feb 2021 13:05:31 GMT</lastBuildDate><item><title><![CDATA[0円で作るGatsby + Github Pagesの静的ブログ 2]]></title><description><![CDATA[今のままだと該当記事に辿り着くのがいずれ大変になってきそうなので、タグ検索機能を追加します。 ・各記事Markdownファイルにタグ項目追加 ・各タグの一覧ページを作る
 ・ 各記事Markdownファイルにタグ項目追加 各記事のMarkdown…]]></description><link>https://gagagal.github.io/2020-02-26/</link><guid isPermaLink="false">https://gagagal.github.io/2020-02-26/</guid><pubDate>Fri, 26 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;今のままだと該当記事に辿り着くのがいずれ大変になってきそうなので、タグ検索機能を追加します。&lt;/p&gt;
 &lt;p&gt;・各記事Markdownファイルにタグ項目追加&lt;br&gt;
 ・各タグの一覧ページを作る
@@ -13,7 +13,9 @@ description: &amp;quot;このブログにタグ機能を追加する&amp;quot;
 tags: [&amp;quot;Gatsby&amp;quot;, &amp;quot;GraphQL&amp;quot;]
 ---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;のようにする。&lt;/p&gt;
-&lt;p&gt;GraqhQLでの&lt;strong&gt;allMarkdownRemark&lt;/strong&gt;と&lt;strong&gt;markdownRemark&lt;/strong&gt;というクエリでMarkdownファイルを取得し、frontmatterのメタ情報はここに含まれる。  &lt;/p&gt;
+&lt;p&gt;GraqhQLでの&lt;strong&gt;allMarkdownRemark&lt;/strong&gt;と&lt;strong&gt;markdownRemark&lt;/strong&gt;というクエリでMarkdownファイルを取得し、frontmatterのメタ情報はここに含まれる。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;npm run develop&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;で &lt;a href=&quot;http://localhost:8000/___graphql&quot;&gt;http://localhost:8000/___graphql&lt;/a&gt; にアクセスすることでGraphQLのクエリを投げた際の挙動を確認できる。&lt;/p&gt;
 &lt;h2&gt;各タグの一覧ページを作る&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Gatsby,GraphQL]]></title><description><![CDATA[Gatsbyについて Gatsbyでのブログの作り方を説明してしまったんで内容は前後しますが、一旦Gatsbyの説明を。   ・Reactベースの静的サイトジェネレーター ・SPAで動く ・内部はGraphQLで動く(データへのインタフェースの一元化)   Gatsby…]]></description><link>https://gagagal.github.io/2020-02-25/</link><guid isPermaLink="false">https://gagagal.github.io/2020-02-25/</guid><pubDate>Thu, 25 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Gatsbyについて&lt;/h2&gt;
 &lt;p&gt;Gatsbyでのブログの作り方を説明してしまったんで内容は前後しますが、一旦Gatsbyの説明を。  &lt;/p&gt;
 &lt;p&gt;・Reactベースの静的サイトジェネレーター&lt;br&gt;
