@@ -1,8 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Feb 2021 14:04:23 GMT</lastBuildDate><item><title><![CDATA[Gatsby,GraphQL]]></title><description><![CDATA[Gatsbyについて Gatsbyでのブログの作り方を説明してしまったんで内容は前後しますが、一旦Gatsbyの説明をしておきましょう。   ・Reactベースの静的サイトジェネレーター ・SPAで動く ・内部はGraphQL…]]></description><link>https://gagagal.github.io/2020-02-25/</link><guid isPermaLink="false">https://gagagal.github.io/2020-02-25/</guid><pubDate>Thu, 25 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Gatsbyについて&lt;/h2&gt;
-&lt;p&gt;Gatsbyでのブログの作り方を説明してしまったんで内容は前後しますが、一旦Gatsbyの説明をしておきましょう。  &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Feb 2021 05:13:16 GMT</lastBuildDate><item><title><![CDATA[Gatsby + Github Pagesで0円静的ブログ作り 2]]></title><description><![CDATA[今のままだと該当記事に辿り着くのがいずれ大変になってきそうなので、タグ検索機能を追加します。 ・各記事Markdownファイルにタグ項目追加 ・各タグの一覧ページを作る
+・ 各記事Markdownファイルにタグ項目追加 各記事のMarkdown…]]></description><link>https://gagagal.github.io/2020-02-26/</link><guid isPermaLink="false">https://gagagal.github.io/2020-02-26/</guid><pubDate>Fri, 26 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;今のままだと該当記事に辿り着くのがいずれ大変になってきそうなので、タグ検索機能を追加します。&lt;/p&gt;
+&lt;p&gt;・各記事Markdownファイルにタグ項目追加&lt;br&gt;
+・各タグの一覧ページを作る
+・&lt;/p&gt;
+&lt;h2&gt;各記事Markdownファイルにタグ項目追加&lt;/h2&gt;
+&lt;p&gt;各記事のMarkdownファイルの上部に&lt;strong&gt;frontmatter&lt;/strong&gt;という形式でメタ情報を書き込む箇所があるが、そこにtagsという項目を追加する。 &lt;/p&gt;
+&lt;p&gt;今回の記事で言うと&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;---
+title: Gatsby + Github Pagesで0円静的ブログ作り 2
+date: &amp;quot;2021-02-26T22:12:03.284Z&amp;quot;
+description: &amp;quot;このブログにタグ機能を追加する&amp;quot;
+tags: [&amp;quot;Gatsby&amp;quot;, &amp;quot;GraphQL&amp;quot;]
+---&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;のようにする。&lt;/p&gt;
+&lt;p&gt;GraqhQLでの&lt;strong&gt;allMarkdownRemark&lt;/strong&gt;と&lt;strong&gt;markdownRemark&lt;/strong&gt;というクエリでMarkdownファイルを取得し、frontmatterのメタ情報はここに含まれる。  &lt;/p&gt;
+&lt;h2&gt;各タグの一覧ページを作る&lt;/h2&gt;</content:encoded></item><item><title><![CDATA[Gatsby,GraphQL]]></title><description><![CDATA[Gatsbyについて Gatsbyでのブログの作り方を説明してしまったんで内容は前後しますが、一旦Gatsbyの説明を。   ・Reactベースの静的サイトジェネレーター ・SPAで動く ・内部はGraphQLで動く(データへのインタフェースの一元化)   Gatsby…]]></description><link>https://gagagal.github.io/2020-02-25/</link><guid isPermaLink="false">https://gagagal.github.io/2020-02-25/</guid><pubDate>Thu, 25 Feb 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Gatsbyについて&lt;/h2&gt;
+&lt;p&gt;Gatsbyでのブログの作り方を説明してしまったんで内容は前後しますが、一旦Gatsbyの説明を。  &lt;/p&gt;
 &lt;p&gt;・Reactベースの静的サイトジェネレーター&lt;br&gt;
 ・SPAで動く&lt;br&gt;
 ・内部はGraphQLで動く(データへのインタフェースの一元化)  &lt;/p&gt;
+&lt;p&gt;Gatsbyについてはブログ作成中に同時進行で学ぼうとしているので、どんどん追記していきたい。&lt;/p&gt;
 &lt;h2&gt;GraphQLについて&lt;/h2&gt;
 &lt;p&gt;次はこのブログの記事にタグ検索機能をつけたいので、GraphQLについてもほんの少し。  &lt;/p&gt;
 &lt;p&gt;・Facebookが開発しているオープンソースのクエリ言語  &lt;/p&gt;
@@ -12,22 +29,22 @@
 &lt;p&gt;とりあえず一旦はデザインなどを凝らずに、アップすることを第一目標に。&lt;/p&gt;
 &lt;h2&gt;いざ作る&lt;/h2&gt;
 &lt;p&gt;そもそもGatsby自体がGithub Pagesで公開されるパターンも想定しているので、割りとスムーズに開発できました。  &lt;/p&gt;
-&lt;p&gt;まず、&lt;strong&gt;(ユーザー名).github.io&lt;/strong&gt; という名前のリポジトリをGithubで作成し、クローンします。  &lt;/p&gt;
+&lt;p&gt;まず、&lt;strong&gt;(ユーザー名).github.io&lt;/strong&gt; という名前のリポジトリをGithubで作成し、クローン。  &lt;/p&gt;
 &lt;p&gt;そのリポジトリ内で、  &lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;npm install -g gatsby-cli
 gatsby new blog https://github.com/gatsbyjs/gatsby-starter-blog&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;かなりベーシックながらブログチックで拡張しやすい構成を最初から提示してくれるgatsby-starter-blogを採用します。  &lt;/p&gt;
+&lt;p&gt;かなりベーシックながらブログチックで拡張しやすい構成を最初から提示してくれるgatsby-starter-blogを採用。  &lt;/p&gt;
 &lt;p&gt;“blog”という名前のディレクトリが作成されますが、この名前は別に何でも大丈夫みたいです。  &lt;/p&gt;
 &lt;p&gt;そして、&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;cd blog
 npm install --save gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;さらに、package.jsonのscriptに&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;&amp;quot;deploy&amp;quot;: &amp;quot;gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;を追記します。  &lt;/p&gt;
+&lt;p&gt;を追記。  &lt;/p&gt;
 &lt;p&gt;すると、&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;aidl&quot;&gt;&lt;pre class=&quot;language-aidl&quot;&gt;&lt;code class=&quot;language-aidl&quot;&gt;npm run deploy&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;でデプロイされます。 &lt;/p&gt;
-&lt;p&gt;GithubのリポジトリのSettingからGithub PagesのURLに飛べば、反映されていることがわかります。  &lt;/p&gt;
+&lt;p&gt;でデプロイ。 &lt;/p&gt;
+&lt;p&gt;GithubのリポジトリのSettingからGithub PagesのURLに飛べば、反映されていることが確認できる。  &lt;/p&gt;
 &lt;h3&gt;今後やりたいこと&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; タグ機能追加  &lt;/li&gt;
@@ -74,6 +91,12 @@ npm install --save gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『暗号技術の全て』&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『パターン認識と機械学習』&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『統計的学習の基礎(原文)』&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『ハイパフォーマンスPython』&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『Fluent Python』&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『マスタリングTCP/IP』&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『入門Vue.js』&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『問題解決のPythonプログラミング』&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 『実践Metasploit』&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=bx3--22D4E4&quot;&gt;Ben Awadで勉強&lt;/a&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=NlZdVtYVo3E&quot;&gt;Adrian Twarogで勉強&lt;/a&gt;&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; &lt;a href=&quot;https://www.youtube.com/watch?v=JD-age0BPVo&quot;&gt;Tim Ruscicaで勉強&lt;/a&gt;&lt;/li&gt;

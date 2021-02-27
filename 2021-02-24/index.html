@@ -11,22 +11,22 @@
 <p>とりあえず一旦はデザインなどを凝らずに、アップすることを第一目標に。</p>
 <h2>いざ作る</h2>
 <p>そもそもGatsby自体がGithub Pagesで公開されるパターンも想定しているので、割りとスムーズに開発できました。  </p>
-<p>まず、<strong>(ユーザー名).github.io</strong> という名前のリポジトリをGithubで作成し、クローンします。  </p>
+<p>まず、<strong>(ユーザー名).github.io</strong> という名前のリポジトリをGithubで作成し、クローン。  </p>
 <p>そのリポジトリ内で、  </p>
 <div class="gatsby-highlight" data-language="aidl"><pre class="language-aidl"><code class="language-aidl">npm install -g gatsby-cli
 gatsby new blog https://github.com/gatsbyjs/gatsby-starter-blog</code></pre></div>
-<p>かなりベーシックながらブログチックで拡張しやすい構成を最初から提示してくれるgatsby-starter-blogを採用します。  </p>
+<p>かなりベーシックながらブログチックで拡張しやすい構成を最初から提示してくれるgatsby-starter-blogを採用。  </p>
 <p>“blog”という名前のディレクトリが作成されますが、この名前は別に何でも大丈夫みたいです。  </p>
 <p>そして、</p>
 <div class="gatsby-highlight" data-language="aidl"><pre class="language-aidl"><code class="language-aidl">cd blog
 npm install --save gh-pages</code></pre></div>
 <p>さらに、package.jsonのscriptに</p>
 <div class="gatsby-highlight" data-language="aidl"><pre class="language-aidl"><code class="language-aidl">&quot;deploy&quot;: &quot;gatsby build &amp;&amp; gh-pages -d public -b master&quot;</code></pre></div>
-<p>を追記します。  </p>
+<p>を追記。  </p>
 <p>すると、</p>
 <div class="gatsby-highlight" data-language="aidl"><pre class="language-aidl"><code class="language-aidl">npm run deploy</code></pre></div>
-<p>でデプロイされます。 </p>
-<p>GithubのリポジトリのSettingからGithub PagesのURLに飛べば、反映されていることがわかります。  </p>
+<p>でデプロイ。 </p>
+<p>GithubのリポジトリのSettingからGithub PagesのURLに飛べば、反映されていることが確認できる。  </p>
 <h3>今後やりたいこと</h3>
 <ul>
 <li class="task-list-item"><input type="checkbox" disabled> タグ機能追加  </li>
