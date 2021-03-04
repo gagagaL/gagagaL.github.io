@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Mar 2021 16:59:08 GMT</lastBuildDate><item><title><![CDATA[『リファクタリング』まとめ Part1]]></title><description><![CDATA[マーチン・ファウラー著『リファクタリング プログラミングの体質改善テクニック』をまとめていく。 気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。 第…]]></description><link>https://gagagal.github.io/2021-03-01/</link><guid isPermaLink="false">https://gagagal.github.io/2021-03-01/</guid><pubDate>Mon, 01 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;マーチン・ファウラー著『リファクタリング プログラミングの体質改善テクニック』をまとめていく。&lt;br&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Mar 2021 12:46:31 GMT</lastBuildDate><item><title><![CDATA[task_kitsune作成日記]]></title><description><![CDATA[使いたい技術 Laravel
+Laravel Jetstream
+Vue.js
+PWA (WebPush) やったこと リポジトリ作成
+Laravel導入
+Laravel Jetstream導入]]></description><link>https://gagagal.github.io/2021-03-04/</link><guid isPermaLink="false">https://gagagal.github.io/2021-03-04/</guid><pubDate>Thu, 04 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h1&gt;使いたい技術&lt;/h1&gt;
+&lt;p&gt;Laravel
+Laravel Jetstream
+Vue.js
+PWA (WebPush)&lt;/p&gt;
+&lt;h1&gt;やったこと&lt;/h1&gt;
+&lt;p&gt;リポジトリ作成
+Laravel導入
+Laravel Jetstream導入&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;composer create-project --prefer-dist laravel/laravel [プロジェクト名]
+cd [プロジェクト名]
+cp -p .env.example .env // .env書き込み
+
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm install
+npm run dev&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[『Linuxプログラミングインタフェース』まとめ Part1]]></title><description><![CDATA[『Linuxプログラミングインタフェース』をまとめていく。 気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。 第1章 UNIXの歴史と標準化 Linuxは数あるUNIXオペレーティングシステムの一つ。 第…]]></description><link>https://gagagal.github.io/2021-03-02/</link><guid isPermaLink="false">https://gagagal.github.io/2021-03-02/</guid><pubDate>Tue, 02 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;『Linuxプログラミングインタフェース』をまとめていく。&lt;br&gt;
+気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。&lt;/p&gt;
+&lt;h1&gt;第1章 UNIXの歴史と標準化&lt;/h1&gt;
+&lt;p&gt;Linuxは数あるUNIXオペレーティングシステムの一つ。&lt;/p&gt;
+&lt;h1&gt;第2章 基礎概念&lt;/h1&gt;
+&lt;h2&gt;オペレーティングシステムのコア：カーネル&lt;/h2&gt;
+&lt;p&gt;オペレーティングシステムという用語は2つの意味で使用されることが多い。&lt;br&gt;
+・コンピュータの全リソースを管理するソフトウェアに加え、コマンドラインインタプリタ、グラフィカルユーザインタフェース、ファイルユーティリティ、エディタなど、標準的ソフトウェアツールを全て含む&lt;br&gt;
+・もっと範囲が狭く、CPU、RAM、デバイスなど、コンピュータの全リソースを管理するソフトウェアのみを指す(&lt;strong&gt;カーネル&lt;/strong&gt;とも呼ぶ)　　&lt;/p&gt;
+&lt;h3&gt;カーネルが実行するタスク&lt;/h3&gt;
+&lt;p&gt;・&lt;strong&gt;プロセススケジューリング&lt;/strong&gt;…コンピュータは一つ以上のCPUを持ち、プログラム内の命令を実行する。プロセス(&lt;strong&gt;実行状態にあるプログラム&lt;/strong&gt;)を複数同時にメモリ上におき、順にCPUに使用権を与える機能。&lt;/p&gt;
+&lt;p&gt;・&lt;strong&gt;メモリ管理&lt;/strong&gt;…&lt;/p&gt;</content:encoded></item><item><title><![CDATA[『リファクタリング』まとめ Part1]]></title><description><![CDATA[マーチン・ファウラー著『リファクタリング プログラミングの体質改善テクニック』をまとめていく。 気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。 第…]]></description><link>https://gagagal.github.io/2021-03-01/</link><guid isPermaLink="false">https://gagagal.github.io/2021-03-01/</guid><pubDate>Mon, 01 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;マーチン・ファウラー著『リファクタリング プログラミングの体質改善テクニック』をまとめていく。&lt;br&gt;
 気になった箇所、現在にも応用できそうな箇所を特に記載していくので、全てを書き記すわけではない。&lt;/p&gt;
 &lt;h1&gt;第1章  リファクタリング-最初の例&lt;/h1&gt;
 &lt;p&gt;実例を交えながらリファクタリングがどういうものか説明している。&lt;br&gt;
