@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 30 Mar 2021 09:43:33 GMT</lastBuildDate><item><title><![CDATA[Laravel + Vue.js によるWebアプリ作成]]></title><description><![CDATA[作りたいもの サーバー:Laravel クライアント:Vue.js 大きな目標とその日時を設定し、それを達成するまでの細かいステップを記入していくとそれらが自動的にスケジューリングされるWeb…]]></description><link>https://gagagal.github.io/2021-03-10/</link><guid isPermaLink="false">https://gagagal.github.io/2021-03-10/</guid><pubDate>Wed, 10 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h1&gt;作りたいもの&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 30 Mar 2021 09:44:15 GMT</lastBuildDate><item><title><![CDATA[Laravel + Vue.js によるWebアプリ作成]]></title><description><![CDATA[作りたいもの サーバー:Laravel クライアント:Vue.js 大きな目標とその日時を設定し、それを達成するまでの細かいステップを記入していくとそれらが自動的にスケジューリングされるWeb…]]></description><link>https://gagagal.github.io/2021-03-10/</link><guid isPermaLink="false">https://gagagal.github.io/2021-03-10/</guid><pubDate>Wed, 10 Mar 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h1&gt;作りたいもの&lt;/h1&gt;
 &lt;p&gt;サーバー:Laravel&lt;/p&gt;
 &lt;p&gt;クライアント:Vue.js&lt;/p&gt;
 &lt;p&gt;大きな目標とその日時を設定し、それを達成するまでの細かいステップを記入していくとそれらが自動的にスケジューリングされるWebアプリ。&lt;/p&gt;
@@ -14,7 +14,10 @@
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;composer require laravel/ui
 php artisan ui vue
 npm install&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;これで完了&lt;/p&gt;
+&lt;p&gt;これで完了。
+サーバー側で&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;php artisan serve&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;を実行しつつ、フロント側で&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm run hot&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;で動かしながら修正できる。&lt;/p&gt;
 &lt;p&gt;ただし、これはJetstramとバッティングしないか不明(単純にまだ調べていない)。その都度対応する。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[task_kitsune作成日記]]></title><description><![CDATA[使いたい技術 Laravel
