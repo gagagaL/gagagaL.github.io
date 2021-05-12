@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 May 2021 17:51:16 GMT</lastBuildDate><item><title><![CDATA[『テスト駆動開発』まとめ]]></title><description><![CDATA[テスト駆動開発の手法 やることをTODO…]]></description><link>https://gagagal.github.io/テスト駆動開発/</link><guid isPermaLink="false">https://gagagal.github.io/テスト駆動開発/</guid><pubDate>Thu, 13 May 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h1&gt;テスト駆動開発の手法&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[ヨット逆走JS]]></title><description><![CDATA[技術ブログです。雑食なので色々書いていけたらなと。]]></description><link>https://gagagal.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 May 2021 18:33:17 GMT</lastBuildDate><item><title><![CDATA[『テスト駆動開発』まとめ]]></title><description><![CDATA[テスト駆動開発の手法 やることをTODO…]]></description><link>https://gagagal.github.io/テスト駆動開発/</link><guid isPermaLink="false">https://gagagal.github.io/テスト駆動開発/</guid><pubDate>Thu, 13 May 2021 22:12:03 GMT</pubDate><content:encoded>&lt;h1&gt;テスト駆動開発の手法&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;やることをTODOリストに書き出す(これは随時思いつき次第追加していく)&lt;/li&gt;
 &lt;li&gt;小さいテストを一つ書く&lt;/li&gt;
@@ -187,6 +187,7 @@ npm install --save gh-pages&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; このブログの整形、デザインの調整&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Django + DeepLearningでアプリ作成&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; OSS参戦&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; CUIアプリ自作&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; バグバウンティ周り勉強(C、C#、Linux、など)&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 統計学勉強、統計検定一級に挑戦&lt;/li&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 1シーズンに1つは重ための記事を書く&lt;/li&gt;
